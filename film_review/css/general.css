@@ -1,0 +1,86 @@
+:root {
+    --body: #090505;
+    --header: #100b0b;
+    --footer: #080707;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+   
+    background-color: #a8bbbf;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+body {
+    margin: 0;
+    background-color: var(--body);
+    color: rgb(237, 229, 229);
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+h1 {
+    width: fit-content;
+    margin: 0;
+}
+
+h2 {
+    width: fit-content;
+    margin: 0;
+}
+
+p {
+    width: fit-content;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box {
+    width: 18vw;
+    height: 4vh;
+    border: none;
+    border-top-left-radius: 0.25vw;
+    border-bottom-left-radius: 0.25vw;
+}
+
+.search-box:focus {
+    outline: none
+}
+
+.submit-button {
+    width: 2vw;
+    border: 1px solid white;
+    background: white url("/film_review/icons/search.svg") no-repeat center;
+    border-top-right-radius: 0.25vw;
+    border-bottom-right-radius: 0.25vw;
+}
