@@ -16,7 +16,8 @@
     // New Review Form Logic
     if(isset($_POST["submit-button"])){
         $review = filter_input(INPUT_POST, "review", FILTER_SANITIZE_SPECIAL_CHARS);
-        if(!empty($review)){
+
+        if(!empty($review) && !empty($email)){
             $sql = "INSERT INTO reviews(movie_id, review, email) VALUES(:movieID, :review, :email)";
             $statement_review = $pdo->prepare($sql);
             $statement_review->execute(["movieID" => $movieID, "review" => $review, "email" => $email]);
@@ -61,6 +62,7 @@
     <link rel="stylesheet" href="/film_review/assets/css/general.css">
     <link rel="stylesheet" href="/film_review/assets/css/header-footer.css">
     <link rel="stylesheet" href="/film_review/assets/css/reviews.css">
+    <link rel="stylesheet" href="/film_review/assets/css/responsive.css">
 </head>
 <body>
     <?php include("header.php") ?>

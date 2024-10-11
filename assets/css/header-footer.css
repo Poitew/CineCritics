@@ -47,6 +47,7 @@ footer .company-logo {
 footer ul {
     display: flex;
     flex-direction: row;
+    padding: 0;
 }
 
 footer li {
@@ -56,4 +57,9 @@ footer li {
 #company-footer {
     text-align: center;
     margin-bottom: 2%;
+}
+
+.sitemap li p {
+    width: 100%;
+    text-align: center;
 }

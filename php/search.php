@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="/film_review/assets/css/general.css">
     <link rel="stylesheet" href="/film_review/assets/css/header-footer.css">
     <link rel="stylesheet" href="/film_review/assets/css/search.css">
+    <link rel="stylesheet" href="/film_review/assets/css/responsive.css">
 </head>
 <body>
     <?php include("header.php") ?>

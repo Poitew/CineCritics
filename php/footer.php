@@ -9,8 +9,7 @@
         <ul>
             <li><a href="index.php"><p>Home</p></a></li>
             <li><a href="movie_list.php"><p>Movie List</p></a></li>
-            <li><a href=""><p>Terms of Service</p></a></li>
-            <li><a href=""><p>Contact US</p></a></li>
+            <li><a href="login.php"><p>Login</p></a></li>
         </ul>
     </div>
 

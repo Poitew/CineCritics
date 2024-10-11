@@ -20,7 +20,7 @@
         if($result){
             if(password_verify($password_login, $result["password"])){
                 
-                // Crazione Token JWT
+                // JWT Token Creation
                 $payload = array(
                     "iss" => "http://localhost/film_review/php/login.php",
                     "iat"=> time(),
@@ -65,6 +65,7 @@
     <link rel="stylesheet" href="/film_review/assets/css/general.css">
     <link rel="stylesheet" href="/film_review/assets/css/header-footer.css">
     <link rel="stylesheet" href="/film_review/assets/css/login.css">
+    <link rel="stylesheet" href="/film_review/assets/css/responsive.css">
 </head>
 <body>
     <?php include("header.php") ?>
@@ -80,7 +81,7 @@
 
                 <br/>
 
-                <label for="password-login">
+                <label for="password_login">
                     password <br/>
                     <input type="password" name="password_login" id="password_login">
                 </label>
@@ -92,7 +93,7 @@
         <div class="register">
             <h2>Register</h2>
             <form action="login.php" method="post">
-                <label for="email-register">
+                <label for="email_register">
                 email <br/>
                     <input type="text" name="email_register" id="email_register">
                 </label>

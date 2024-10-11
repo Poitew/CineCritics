@@ -1,9 +1,8 @@
 .list {
     width: 100%;
     height: fit-content;
-    display: grid;
-    grid-template-rows: 100%;
-    grid-template-columns: 13.5% 13.5% 13.5% 13.5% 13.5% 13.5%;
+    display: flex;
+    justify-content: center;
     gap: 0 4vw;
     margin-top: 10%;
 }

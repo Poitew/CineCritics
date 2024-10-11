@@ -12,13 +12,14 @@
     <link rel="stylesheet" href="/film_review/assets/css/general.css">
     <link rel="stylesheet" href="/film_review/assets/css/header-footer.css">
     <link rel="stylesheet" href="/film_review/assets/css/movie_list.css">
+    <link rel="stylesheet" href="/film_review/assets/css/responsive.css">
 </head>
 <body>
     <?php include("header.php") ?>
     
     <div class="list">
         <?php foreach($movies as $index => $movie): ?>
-            <a href="reviews.php?id=<?= $index ?>">
+            <a href="reviews.php?id=<?= $index + 1 ?>">
                 <img src="<?= $movie["cover"] ?>" alt="Movie <?= $index ?>">
             </a>
         <?php endforeach; ?>
