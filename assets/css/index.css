@@ -34,17 +34,12 @@
     margin-top: 10%;
 }
 
-.trending a {
-    display: block;
-    width: 13vw;
-}
-
 .reviews {
     width: 13vw;
     height: 7vh;
     background-color: #b1720d;
     border: 2px solid #191c1c;
-    margin-top: 85%;
+    margin-top: 15%;
     border-radius: 0.5vw / 0.5vw;
     box-shadow: 0px 0px 20px 1px rgb(191 119 3);
 }

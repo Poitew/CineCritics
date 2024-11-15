@@ -4,7 +4,7 @@ const login_header = document.getElementById("login-header");
 const movie_header = document.getElementById("Movie-list");
 
 
-const active_color = "#B04822"; // color for the page you are in
+const active_color = "#FF9474";
 const inactive_color = "#E9E0E0";
 
 

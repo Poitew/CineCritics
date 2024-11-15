@@ -11,7 +11,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CineCritics - Reviewing movies since 1973</title>
+    <title>CineCritics - Reviewing movies since 2024</title>
+    <meta name="description" content="Cincecritics, the best platform for reviewing movies of all kinds">
     <link rel="stylesheet" href="/film_review/assets/css/general.css">
     <link rel="stylesheet" href="/film_review/assets/css/header-footer.css">
     <link rel="stylesheet" href="/film_review/assets/css/index.css">
@@ -27,12 +28,10 @@
             <p class="trending-description" ><?= $moviesRow[0]["movie_description"] ?></p>
             <p class="trending-director" ><?= $moviesRow[0]["director"] ?></p>
 
-            <a href="reviews.php?id=<?= $moviesRow[0]["id"] ?>">
-                <div class="reviews center">
-                    <p>REVIEWS</p>
-                </div>
-            </a>
-
+            <div class="reviews center">
+                <a href="reviews.php?id=<?= $moviesRow[0]["id"] ?>">REVIEWS</a>
+            </div>
+            
         </div>
     </div>
 

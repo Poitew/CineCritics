@@ -10,7 +10,7 @@ header {
     z-index: 100;
 }
 
-.company-logo p {
+.company-logo {
     background-color: rgb(219 138 49);
     font-size: 3vw;
     padding: 0.1vw 0.5vw;

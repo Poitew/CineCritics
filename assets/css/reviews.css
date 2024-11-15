@@ -29,9 +29,11 @@
     width: 100%;
     height: 20vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 5%;
+    gap: 2vh;
 }
 
 .reviews-form form {

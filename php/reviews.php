@@ -5,7 +5,6 @@
 
     $movieID = $_GET["id"];
     $movieIndex = $mappedMovies[$movieID];
-    
 
     // Get all Reviews
     $sql = "SELECT * FROM reviews WHERE movie_id = :movieID";
@@ -75,9 +74,10 @@
             <p><?= $movies[$movieIndex]["movie_description"] ?></p>
         </div>
     </div>
-    
+
     <!-- New Review Form -->
     <div class="reviews-form" >
+        <p>Don't forget to create an account!</p>
         <form action="reviews.php?id=<?= $movieID ?>" method="post">
             <input type="text" name="review" placeholder="Write a review" class="search-box" >
             <input type="submit" value="" class="submit-button" name="submit-button" >

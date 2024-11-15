@@ -4,14 +4,26 @@
     justify-content: space-around;
 }
 
-.form-wrapper form {
+.login, .register {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.form-wrapper input[type=submit] {
+.form-wrapper form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6vh;
+}
+
+.form-wrapper input[type=submit], #logout input[type=submit] {
     width: 15vw;
     height: 5vh;
+}
+
+#logout {
+    display: flex;
+    justify-content: center;
     margin-top: 5%;
 }

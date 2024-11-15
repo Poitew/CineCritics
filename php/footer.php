@@ -1,9 +1,8 @@
 <footer>
-    <a href="index.php">
-        <div class="company-logo">
-            <p>CineCritics</p>
-        </div>
-    </a>
+    
+    <div class="company-logo">
+        <a href="index.php">CineCritics</a>
+    </div>
 
     <div class="sitemap">
         <ul>
