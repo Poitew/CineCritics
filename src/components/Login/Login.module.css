@@ -1,0 +1,60 @@
+.main {
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.center_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 2.5em;
+    margin-bottom: 10%;
+}
+
+.form {
+    margin-bottom: 40%;
+}
+
+.input {
+    min-width: 20vw;
+    height: 4vh;
+    padding-left: 2%;
+}
+
+.submit {
+    min-width: 10vw;
+    height: 4vh;
+    margin-top: 5%;
+    background-color: var(--orange_default);
+    border: 0;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: var(--orange_darker);
+}
+
+/* X-Small devices (portrait phones, less than 600px) */
+@media only screen and (max-width: 600px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .input {
+        min-width: 55vw;
+    }
+
+    .title {
+        font-size: 4em;
+    }
+
+    .submit {
+        min-width: 25vw;
+        font-size: 4vw;
+    }
+}
